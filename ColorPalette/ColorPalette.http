@@ -1,0 +1,33 @@
+@ColorPalette_HostAddress = http://localhost:5182
+
+GET {{ColorPalette_HostAddress}}/api/colors/?page=1&pageSize=10
+Accept: application/json
+
+### Get list of colors
+
+GET {{ColorPalette_HostAddress}}/api/colors/2
+Accept: application/json
+
+### Get color by id
+
+POST {{ColorPalette_HostAddress}}/api/colors
+Accept: application/json
+
+{
+
+}
+
+### Create new color
+
+PUT {{ColorPalette_HostAddress}}/api/colors/1
+Accept: application/json
+
+{
+
+}
+
+### Update color
+
+DELETE {{ColorPalette_HostAddress}}/api/colors/1
+
+### Delete color
